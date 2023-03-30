@@ -1,7 +1,6 @@
+"use strict";
 const ipcRenderer = window.ipcRenderer;
 const app = window.app;
-
-"use strict";
 
 const JulianDate = Cesium.JulianDate;
 const Quaternion = Cesium.Quaternion;
@@ -95,17 +94,17 @@ fetch(satUrl)
 
 var satelliteEntity = viewer.dataSources.add(czml);
 
-var gs = {
-    id: "KanazawaUnivGs",
-    name: "KOYOH Ground Station",
-    billboard: {
-        image: "../resource/image/Kanazawa_University_logo.svg",
-        scale: 0.2,
-    },
-    position: Cesium.Cartesian3.fromDegrees(136.70510974114885, 36.54389351031144, 25)
-};
+// var gs = {
+//     id: "KanazawaUnivGs",
+//     name: "KOYOH Ground Station",
+//     billboard: {
+//         image: "../resource/image/Kanazawa_University_logo.svg",
+//         scale: 0.2,
+//     },
+//     position: Cesium.Cartesian3.fromDegrees(136.70510974114885, 36.54389351031144, 25)
+// };
 
-var groundStationEntity = viewer.entities.add(gs);
+// var groundStationEntity = viewer.entities.add(gs);
 
 var earthCore = {
     id: "core",
