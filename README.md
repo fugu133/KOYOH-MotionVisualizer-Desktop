@@ -16,7 +16,12 @@ cd KOYOH-MotionVisualizer
 npm install
 ```
 
-Build the application after installing the package.
+To run application locally after installing the package, run the following command.
+```
+npm run start
+```
+
+Build the application, run the following command.
 
 ```shell
 # For Mac OS (Intel CPU)
