@@ -7,7 +7,7 @@ let mainWindow;
 //アプリウィンドウの作成
 function createWindow() {
     mainWindow = new BrowserWindow({
-        width: 800, height: 600, webPreferences: {
+        width: 1920, height: 1080, webPreferences: {
             nodeIntegration: false,
             contextIsolation: false,
             preload: __dirname + '/preload.js'
