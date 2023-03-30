@@ -1,6 +1,6 @@
 # KOYOH-MotionVisualizer
 
-In this application, you can visualize the orbital and attitude motion of satellites on the virtual earth globe.
+In this application, you can visualize the orbital and attitude motion of satellites on the virtual earth globe.  
 Developed with Electron and CesiumJS.
 
 ## Get started
