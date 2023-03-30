@@ -1,0 +1,13 @@
+{
+    "id" : "KanazawaUnivGs",
+    "name" : "KOYOH Ground Station",
+    "availability" : "2023-02-15T04:50:00Z/2023-02-16T04:50:00Z",
+    "billboard": {
+        "image": "resource/image/Cesium_Logo_overlay.png",
+        "scale": 1.5
+    },
+    "position" : {
+        "epoch" : "2023-02-15T04:50:00Z",
+        "cartographicDegrees" : [0, 136.70510974114885, 36.54389351031144, 10]
+    }
+}

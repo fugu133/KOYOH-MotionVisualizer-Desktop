@@ -1,0 +1,17 @@
+{
+  "name": "koyoh-orbitaltrajectory-desktop",
+  "productName": "KOYOH OrbitalTrajectory",
+  "version": "1.0.0",
+  "description": "The application can visualize the orbital and attitude motion of satellites on the virtual earth globe.",
+  "author": "Kaiji Takeuchi",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cesium": "^1.103.0",
+    "electron": "^23.2.1",
+    "electron-builder": "^23.6.0"
+  }
+}
