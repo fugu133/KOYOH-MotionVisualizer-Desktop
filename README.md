@@ -5,7 +5,7 @@ Developed with Electron and CesiumJS.
 
 ## Get started
 
-### npm & yarn
+### npm
 
 Node.js is required. If you have not installed Node.js, please install it from the [official page](https://nodejs.org/en).
 
