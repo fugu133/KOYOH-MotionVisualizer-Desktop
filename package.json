@@ -1,6 +1,6 @@
 {
-  "name": "koyoh-motion-visualizar-desktop",
-  "productName": "KOYOH-MotionVisualizar",
+  "name": "koyoh-motion-visualizer-desktop",
+  "productName": "KOYOH-MotionVisualizer",
   "version": "1.0.0",
   "description": "The application can visualize the orbital and attitude motion of satellites on the virtual earth globe.",
   "author": "Kaiji Takeuchi",
@@ -9,7 +9,7 @@
     "start": "electron ."
   },
   "build": {
-    "appId": "com.electron.koyoh-motion-visualizar-desktop",
+    "appId": "com.electron.koyoh-motion-visualizer-desktop",
     "copyright": "Copyright © 2023 Kaiji Takeuchi",
     "directories": {
       "output": "build"
