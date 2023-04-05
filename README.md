@@ -17,6 +17,7 @@ npm install
 ```
 
 To run application locally after installing the package, run the following command.
+
 ```
 npm run start
 ```
@@ -28,7 +29,7 @@ Build the application, run the following command.
 npx electron-builder --mac --x64 --dir
 
 # For Mac OS (Arm CPU)
-npx electron-builder --arm64 --dir
+npx electron-builder --mac --arm64 --dir
 
 # For Windows
 npx electron-builder --win --x64 --dir
