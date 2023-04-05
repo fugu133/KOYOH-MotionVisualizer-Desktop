@@ -18,6 +18,8 @@ function createWindow() {
 }
 
 // 初期化終了後実行
+app.commandLine.appendSwitch('enable-unsafe-es3-apis');
+
 app.on('ready', function () {
     createWindow();
 });
