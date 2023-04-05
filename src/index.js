@@ -20,7 +20,8 @@ var viewer = new Cesium.Viewer("cesium", {
     shouldAnimate: false,
     baseLayerPicker: false,
     geocoder: false,
-    navigationHelpButton: false
+    navigationHelpButton: false,
+    shadows: true
 });
 
 // ビューワー設定
